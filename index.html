@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEL121 - Communication Skills I</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h2>PEL121</h2>
+                <p>Communication Skills</p>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-title">Study Notes</li>
+                <li><a href="#" data-target="unit1" class="nav-link active">Unit I: Parts of Speech</a></li>
+                <li><a href="#" data-target="unit2" class="nav-link">Unit II: Building Sentences</a></li>
+                <li><a href="#" data-target="unit3" class="nav-link">Unit III: Tenses</a></li>
+                <li><a href="#" data-target="unit4" class="nav-link">Unit IV: Articles & Indefinites</a></li>
+                <li><a href="#" data-target="unit5" class="nav-link">Unit V: Active & Passive Voice</a></li>
+                <li><a href="#" data-target="unit6" class="nav-link">Unit VI: Phrasal Verbs</a></li>
+                
+                <li class="nav-title">Practice Papers</li>
+                <li><a href="#" data-target="paper1" class="nav-link">Sample Paper 1</a></li>
+                <li><a href="#" data-target="paper2" class="nav-link">Sample Paper 2</a></li>
+                <li><a href="#" data-target="paper3" class="nav-link">Sample Paper 3</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <header class="topbar">
+                <button id="mobile-menu-btn">☰</button>
+                <h1 id="page-title">Unit I: Parts of Speech</h1>
+                <div class="theme-toggle">
+                    <button id="theme-btn">🌙 Dark Mode</button>
+                </div>
+            </header>
+            
+            <div id="content-container" class="glass-panel">
+                <!-- Content injected here via JS -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Data Scripts -->
+    <script src="data.js"></script>
+    <script src="notes_data.js"></script>
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
